@@ -1,5 +1,9 @@
 {
-	"background_page" : "background.html",
+  "background": {
+    "scripts": [
+        "js/socket.js"
+    ]
+  },    
     "browser_action": {
         "default_icon": "img/icon128.png",
         "default_title": "Chrome Extension Socket",
@@ -15,5 +19,6 @@
     "permissions": [
 		"background"
     ],     
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "manifest_version": 2
 }
